@@ -6,7 +6,7 @@ Locally weighted regression (LWR) is a regression based form of modelling. Its m
 
 Mathematically, we can understand LWR by first looking at the principle equation of linear regression:
 
-<img src="https://render.githubusercontent.com/render/math?math=$\large y = X\cdot\beta +\sigma\epsilon">
+<img src="https://render.githubusercontent.com/render/math?math=$\large y = X\cdot\beta + \sigma\epsilon">
 
 We can weight this equation by some $W$ by multiplying it to both sides:
 
