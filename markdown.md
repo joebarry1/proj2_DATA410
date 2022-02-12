@@ -14,5 +14,5 @@ We can weight this equation by some *W* by multiplying it to both sides:
 
 The usual weight used in LOESS is the tri cubic weight kernel. The weight on a given *x* using this kernel is: 
 
-<img src="https://render.githubusercontent.com/render/math?math=w(x) = (1-\abs{d}^3)^3">
+<img src="https://render.githubusercontent.com/render/math?math=w(x) = (1-|d|^3)^3">
 
