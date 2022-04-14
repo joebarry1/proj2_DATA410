@@ -85,9 +85,9 @@ yBHP = BHP[['cmedv']]
 
 Here are the scatter plots of the relationships between these pairs of variables:
 
-<img src="Plot1.png" width="387" height="300" alt="hi" class="inline"/>
+<img src="Plot1.PNG" width="387" height="300" alt="hi" class="inline"/>
 
-<img src="Plot2.png" width="387" height="300" alt="hi" class="inline"/>
+<img src="Plot2.PNG" width="387" height="300" alt="hi" class="inline"/>
 
 ## Modeling
 
@@ -100,7 +100,7 @@ ypred = model.predict(xcars)
 matrix = np.column_stack([xcars, ypred])
 ordered = matrix[np.argsort(matrix[:,0])]
 ```
-<img src="Plot3.png" width="387" height="300" alt="hi" class="inline"/>
+<img src="Plot3.PNG" width="387" height="300" alt="hi" class="inline"/>
 
 ```Python
 model.fit(xBHP, yBHP)
@@ -109,7 +109,7 @@ matrix = np.column_stack([xBHP, ypred])
 ordered = matrix[np.argsort(matrix[:,0])]
 ```
 
-<img src="Plot4.png" width="387" height="300" alt="hi" class="inline"/>
+<img src="Plot4.PNG" width="387" height="300" alt="hi" class="inline"/>
 
 ## Lowess Kernel
 
@@ -160,7 +160,7 @@ f = interp1d(datl[:,0], datl[:,1],fill_value='extrapolate')
 yhat = f(dat_test[:,0])
 ```
 
-<img src="Plot5.png" width="387" height="300" alt="hi" class="inline"/>
+<img src="Plot5.PNG" width="387" height="300" alt="hi" class="inline"/>
 
 ```Python
 dat = np.concatenate([xBHP,yBHP], axis=1)
@@ -177,7 +177,7 @@ f = interp1d(datl[:,0], datl[:,1],fill_value='extrapolate')
 yhat = f(dat_test[:,0])
 ```
 
-<img src="Plot6.png" width="387" height="300" alt="hi" class="inline"/>
+<img src="Plot6.PNG" width="387" height="300" alt="hi" class="inline"/>
 
 ## Final Results
 
